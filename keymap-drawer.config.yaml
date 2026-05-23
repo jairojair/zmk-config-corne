@@ -1,0 +1,107 @@
+draw_config:
+  key_w: 60
+  key_h: 56
+  split_gap: 30
+  combo_w: 34
+  combo_h: 24
+  key_rx: 6
+  key_ry: 6
+  outer_pad_w: 30
+  outer_pad_h: 42
+  append_colon_to_layer_header: false
+  shrink_wide_legends: 8
+  footer_text: "Corne Typeractive 5x3"
+  svg_extra_style: |
+    svg.keymap {
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      fill: #252525;
+      background: #f6f4ef;
+    }
+
+    rect.key {
+      fill: #fdfcf9;
+    }
+
+    rect.key,
+    rect.combo {
+      stroke: #b9b0a1;
+      stroke-width: 1.4;
+    }
+
+    rect.held {
+      fill: #fff1c7;
+      stroke: #d7a72d;
+    }
+
+    rect.trans {
+      fill: #f3f1eb;
+      stroke: #d8d2c7;
+      stroke-dasharray: 4 4;
+    }
+
+    rect.combo {
+      fill: #272727;
+      stroke: #272727;
+    }
+
+    path.combo {
+      stroke: #272727;
+      stroke-width: 1.4;
+    }
+
+    text.combo {
+      fill: #ffffff;
+      font-weight: 800;
+    }
+
+    text.label,
+    text.footer {
+      stroke: #f6f4ef;
+      stroke-width: 4;
+      paint-order: stroke;
+    }
+
+    text.hold {
+      fill: #4f7259;
+      font-weight: 800;
+    }
+
+    text.trans {
+      fill: #8d887d;
+    }
+
+    text.layer-activator {
+      text-decoration: none;
+      font-weight: 800;
+      fill: #8a6600;
+    }
+
+parse_config:
+  trans_legend:
+    t: "--"
+    type: trans
+  layer_legend_map:
+    Lower: LWR
+    Raise: RSE
+  raw_binding_map:
+    "&HML LEFT_GUI A": {t: A, h: GUI}
+    "&HML LEFT_ALT S": {t: S, h: ALT}
+    "&HML LSHFT D": {t: D, h: SHIFT}
+    "&HML LEFT_CONTROL F": {t: F, h: CTRL}
+    "&HMR RIGHT_CONTROL J": {t: J, h: CTRL}
+    "&HMR RSHFT K": {t: K, h: SHIFT}
+    "&HMR RIGHT_ALT L": {t: L, h: ALT}
+    "&HMR RIGHT_GUI SEMICOLON": {t: ";", h: GUI}
+    "&bt BT_CLR": BT CLR
+    "&bt BT_SEL 2": BT 2
+    "&bt BT_SEL 3": BT 3
+    "&bt BT_SEL 4": BT 4
+    "&kp C_VOL_DN": VOL-
+    "&kp C_VOL_UP": VOL+
+    "&kp C_PREV": PREV
+    "&kp C_PP": PLAY
+    "&kp C_NEXT": NEXT
+    "&kp LGUI": GUI
+    "&kp RALT": RALT
+    "&kp RET": ENTER

@@ -1,6 +1,6 @@
 # Corne Typeractive 5x3 ZMK Config
 
-![Current keymap](docs/keymap.png)
+![Current keymap](docs/corne.svg)
 
 ## Quick Read
 
@@ -15,6 +15,6 @@ Things still worth adding for daily work:
 - Add quotes, backtick, and tilde to `raise`; there is still enough transparent space for those symbols.
 - Complete the Bluetooth profile keys with `BT_SEL 0` and `BT_SEL 1`, in addition to profiles 2, 3, and 4.
 
-## Automation
+## Keymap Drawing
 
-A common ZMK option is to use `keymap-drawer` to turn `config/corne.keymap` into an image automatically and publish it in the README. The image above is a first visual map of the current layout; the natural next step is to automate its generation.
+The image above is generated with [`keymap-drawer`](https://github.com/caksoylar/keymap-drawer). The `Draw keymap` workflow parses `config/corne.keymap`, writes the generated YAML to `docs/corne.yaml`, and renders `docs/corne.svg` for the README.
