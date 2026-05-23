@@ -44,10 +44,10 @@ layers:
     - BSPC
   Raise:
   - ['!', '@', '#', $, '%', ^, '&', '*', (, )]
-  - - {t: --, type: trans}
-    - {t: --, type: trans}
-    - {t: --, type: trans}
-    - {t: --, type: trans}
+  - - '~'
+    - '`'
+    - '"'
+    - ''''
     - {t: --, type: trans}
     - '-'
     - '='
