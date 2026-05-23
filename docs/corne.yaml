@@ -71,7 +71,7 @@ layers:
     - {type: held}
     - RALT
 combos:
-- p: [1, 2]
+- p: [0, 1]
   k: ESC
 - p: [8, 9]
   k: BSPC
